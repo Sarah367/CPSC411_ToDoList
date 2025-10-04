@@ -9,7 +9,7 @@ This to-do list app allows user to:
 ![Main Screen](Screenshots/MainScreen.png)
 
 ## Empty Screen
-![Empty Screen](Screenshots/EmptyState.png)
+<img src="Screenshots/EmptyState.png" alt="Empty Screen" width="400"/>
 
 ## Input Validation - ensures that the user cannot enter whitespace
 ![Input](Screenshots/InputValidation.png)
