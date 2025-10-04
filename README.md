@@ -6,10 +6,10 @@ This to-do list app allows user to:
 - View their tasks in organized sections (Completed and To-Do)
 
 ## Main Screen
-![Main Screen](Screenshots/MainScreen.png)
+<img src = "Screenshots/MainScreen.png" alt = "Main Screen" width = "500"/>
 
 ## Empty Screen
-<img src="Screenshots/EmptyState.png" alt="Empty Screen" width="400"/>
+<img src="Screenshots/EmptyState.png" alt="Empty Screen" width="500"/>
 
 ## Input Validation - ensures that the user cannot enter whitespace
 ![Input](Screenshots/InputValidation.png)
