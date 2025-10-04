@@ -9,10 +9,10 @@ This to-do list app allows user to:
 ![Main Screen](Screenshots/MainScreen.png)
 
 ## Empty Screen
-![Empty Screen][Screenshots/EmptyState.png)
+![Empty Screen](Screenshots/EmptyState.png)
 
 ## Input Validation - cannot enter whitespace
-![Input][Screenshots/InputValidation.png)
+![Input](Screenshots/InputValidation.png)
 
 # Concepts Used:
 ## Data Class
