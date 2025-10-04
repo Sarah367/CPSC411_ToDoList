@@ -107,3 +107,30 @@ Row(
         Icon(Icons.Default.Add, contentDescription = "Add")
 }
 ```
+## Recomposition
+The app updates the UI through Jetpack Compose's recomposition system. This means that when a task is added, deleted, or checked off as completed, only the affected parts of the UI update, rather than the entire screen itself.
+```kotlin
+LazyColumn(
+    modifier = Modifier
+        .weight(1f)
+        .padding(bottom = 16.dp)
+) {
+    items(activeItems, key = { it.id }) { item ->
+        TodoItemRow(
+            item = item,
+            onToggle = { toggledItem ->
+                todoItems = todoItems.map { todo ->
+                    if (todo.id == toggledItem.id) {
+                        todo.copy(isCompleted = !todo.isCompleted)
+                    } else {
+                        todo
+                    }
+                }
+            },
+            onDelete = { deletedItem ->
+                todoItems = todoItems.filter { it.id != deletedItem.id}
+            }
+        )
+    }
+}
+```
