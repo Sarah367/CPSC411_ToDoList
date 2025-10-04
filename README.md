@@ -6,5 +6,5 @@ This to-do list app allows user to:
 - View their tasks in organized sections (Completed and To-Do)
 
 ## Main Screen
-![Main Screen](MainScreen.png)
+![Main Screen](Screenshots/MainScreen.png)
 
