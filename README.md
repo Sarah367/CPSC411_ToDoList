@@ -11,8 +11,11 @@ This to-do list app allows user to:
 ## Empty Screen
 <img src="Screenshots/EmptyScreen.png" alt="Empty Screen" width="400"/>
 
-## Completed List Screen
+## Completed List Screen (only completed tasks)
 <img src = "Screenshots/CompletedItems.png" alt = "Completed List" width = "400"/>
+
+## To Do List Screen (only active tasks)
+<img src = "Screenshots/ToDoList.png" alt = "To Do List" width = "400"/>
 
 ## Input Validation - ensures that the user cannot enter whitespace
 ![Input](Screenshots/InputValidation.png)
