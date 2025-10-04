@@ -11,7 +11,7 @@ This to-do list app allows user to:
 ## Empty Screen
 ![Empty Screen](Screenshots/EmptyState.png)
 
-## Input Validation - cannot enter whitespace
+## Input Validation - ensures that the user cannot enter whitespace
 ![Input](Screenshots/InputValidation.png)
 
 # Concepts Used:
